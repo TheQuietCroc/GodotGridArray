@@ -2,6 +2,8 @@
 
 ![Godot v4.x](https://img.shields.io/badge/Godot-v4.x-%23478cbf?logo=godot-engine&logoColor=white&style=flat-square)
 
+![The Godot logo made with a grid array.](https://github.com/TheQuietCroc/GodotGridArray/blob/main/screenshots/Godot%20logo.png?raw=true)
+
 Display boolean arrays as a grid of checkboxes in the inspector.
 
 ## Usage
