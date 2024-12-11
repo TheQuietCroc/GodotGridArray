@@ -5,6 +5,7 @@
 .import/
 export.cfg
 export_presets.cfg
+screenshots/*.import
 
 # Imported translations (automatically generated from CSV files)
 *.translation
@@ -13,3 +14,8 @@ export_presets.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# C# ignores
+.idea
+*.csproj
+*.sln

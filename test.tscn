@@ -4,12 +4,6 @@
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_uwgcc")
-gridarray = [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
-metadata/test_grid_array_columns = 1
-metadata/test_grid_array_rows = 1
-metadata/gridarray_columns = 4
-metadata/gridarray_rows = 5
-metadata/gridArray_columns = 1
-metadata/gridArray_rows = 1
-metadata/gridnotarray_columns = 1
-metadata/gridnotarray_rows = 1
+gridarray = [false]
+metadata/gridarray_columns = 1
+metadata/gridarray_rows = 1
