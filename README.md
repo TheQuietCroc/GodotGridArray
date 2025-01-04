@@ -10,13 +10,22 @@ Display boolean arrays as a grid of checkboxes in the inspector.
 
 Include `GridArray` or `grid_array` (not case-sensitive) in your exported Array's name.
 
+If you want to change the number of columns and rows in code, update the node's metadata. The naming convention is `{property name}_{columns/rows}`.
+
 ### GDScript
 
 ```gdscript
 @export
 var Grid_arrayExample: Array
+# Metadata names
+# Grid_arrayExample_columns
+# Grid_arrayExample_rows
+
 @export
 var gridArraysample: Array
+# Metadata names
+# gridArraysample_columns
+# gridArraysample_rows
 ```
 
 ### C#
@@ -24,9 +33,15 @@ var gridArraysample: Array
 ```csharp
 [Export]
 public Array<bool> TestGridArray { get; private set; } = new();
+// Metadata names
+// TestGridArray_columns
+// TestGridArray_rows
 
 [Export]
 private Array<bool> _grid_array_ = new();
+// Metadata names
+// _grid_array__columns
+// _grid_array__rows
 ```
 
 ## Screenshots
